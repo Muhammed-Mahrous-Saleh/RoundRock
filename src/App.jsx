@@ -1,7 +1,12 @@
+import "./styles/app.css";
+
+import Header from "./sections/Header.jsx";
+import About from "./sections/About.jsx";
 function App() {
     return (
         <>
-            <h1 className="text-3xl font-bold underline">Hello World</h1>
+            <Header />
+            <About />
         </>
     );
 }
