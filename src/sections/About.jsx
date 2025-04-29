@@ -38,7 +38,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
-            <Button className="z-10" type="secondary">
+            <Button className="z-10 relative" type="secondary">
                 Help Me
             </Button>
         </section>

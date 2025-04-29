@@ -5,7 +5,11 @@ import { Children } from "react";
  * @returns {JSX.Element} */
 const Button = ({ type, children, className }) => {
     return (
-        <div className={`button button-${type} ${className}`}>{children}</div>
+        <a href="#">
+            <div className={`button button-${type} ${className}`}>
+                {children}
+            </div>
+        </a>
     );
 };
 
