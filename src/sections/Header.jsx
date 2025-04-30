@@ -7,7 +7,7 @@ const Header = () => {
             <div className="header-content--container h-[calc(100vh-4rem)] w-full overflow-hidden relative">
                 <div className="img-container">
                     <img
-                        src="../src/images/trash_header_img.jpg"
+                        src="../images/trash_header_img.jpg"
                         alt="hero image"
                         className="image-clip h-full object-cover"
                     />
