@@ -7,6 +7,7 @@
     --color-text-grey-dark: #4f4f4f;
     --color-text-white: #fff;
     --color-text-primary: #324473;
+    --color-text-primary-dark: #22366a;
 }
 
 body {
@@ -210,6 +211,48 @@ body {
     background-color: var(--color-primary-dark);
 }
 
-.horizontal-card {
+.vertical-card {
     color: var(--color-text-primary);
+}
+.stars-container {
+    display: flex;
+    gap: 5px;
+}
+.stars-container .star {
+    clip-path: url(/star_icon.svg#star-clip);
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--color-text-grey-dark);
+}
+.star .fill-element {
+    background-color: var(--color-primary);
+    height: 110%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.stars-container .star.checked {
+    background-color: var(--color-primary);
+}
+
+.horizontal-card {
+    border-color: var(--color-primary);
+    border-radius: 2.5rem;
+}
+
+.horizontal-card .testimonial-title {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.horizontal-card .testimonial-comment {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--color-text-primary-dark);
 }
