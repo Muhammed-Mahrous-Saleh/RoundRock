@@ -15,7 +15,7 @@ const About = () => {
                         when an
                     </p>
                     <div className="image-container">
-                        <img src="../images/aboutus.png" alt="about us image" />
+                        <img src="/images/aboutus.png" alt="about us image" />
                     </div>
                 </div>
                 <div className="flex-1 about-section-content items-end text-end justify-center md:me-5 max-w-[80%] mx-auto mb-5">
