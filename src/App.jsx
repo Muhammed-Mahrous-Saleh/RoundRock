@@ -4,6 +4,8 @@ import Header from "./sections/Header.jsx";
 import About from "./sections/About.jsx";
 import Services from "./sections/Services.jsx";
 import Testimonials from "./sections/Testimonials.jsx";
+import ContactUs from "./sections/ContactUs.jsx";
+import Footer from "./sections/Footer.jsx";
 function App() {
     return (
         <>
@@ -11,6 +13,8 @@ function App() {
             <About />
             <Services />
             <Testimonials />
+            <ContactUs />
+            <Footer />
         </>
     );
 }
