@@ -63,7 +63,7 @@ const ContactForm = () => {
                     <input
                         {...register(field)}
                         placeholder={field[0].toUpperCase() + field.slice(1)}
-                        className={`w-[374px] h-[56px] rounded-full px-5 py-3 placeholder-black outline-none transition-all duration-300 ${
+                        className={`w-[374px] max-w-[80%] h-[56px] rounded-full px-5 py-3 placeholder-black outline-none transition-all duration-300 ${
                             errors[field]
                                 ? "border border-red-400"
                                 : "border border-gray-300"

@@ -13,7 +13,7 @@ const Header = () => {
                     />
                 </div>
                 <div className="header-content--title absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-                    <div className="header1 text-5xl font-bold text-white">
+                    <div className="header1 md:text-5xl font-bold text-white">
                         <div className="logo-container">
                             <div className="svg-logo-icon"></div>
                         </div>

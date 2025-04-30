@@ -3,7 +3,7 @@ import React from "react";
 const VerticalCard = ({ img, title, des }) => {
     return (
         <>
-            <div className="vertical-card max-w-sm rounded-3xl overflow-hidden shadow-lg">
+            <div className="vertical-card max-w-sm mx-auto rounded-3xl overflow-hidden shadow-lg">
                 <div className="card-img-container h-[290px] overflow-hidden">
                     <img
                         className="w-full object-cover h-full"

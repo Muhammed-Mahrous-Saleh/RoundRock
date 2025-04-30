@@ -14,7 +14,7 @@ const HorizontalCard = ({ img, title, comment, rate }) => {
         }
     }
     return (
-        <div className="horizontal-card max-w-md w-full lg:max-w-full lg:flex border-1 p-6">
+        <div className="horizontal-card max-w-[80%] mx-auto w-full lg:max-w-full lg:flex border-1 p-6">
             <img
                 className="w-15 h-15 rounded-full md:mr-3 mb-3"
                 src={img}

@@ -78,6 +78,7 @@ body {
     text-align: start;
     text-transform: capitalize;
 }
+
 .header-content--container .header1 .title p {
     font-weight: 800;
     font-size: 13px;
@@ -116,6 +117,36 @@ body {
     font-weight: 600;
     font-size: 13px;
     line-height: 20.5px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-content--title {
+        width: 100%;
+    }
+
+    .header-content--title .header1 .title {
+        font-size: 25px;
+    }
+    .header-content--container .header1 .title p {
+        font-size: 10px;
+        line-height: 150%;
+        letter-spacing: 5px;
+    }
+    .header-content--title .label {
+        font-size: 12px;
+    }
+    .text-header {
+        font-size: 40px;
+
+        line-height: 100%;
+    }
+    .about-text {
+        width: 100%;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 100%;
+        margin-bottom: 10px;
+    }
 }
 
 .button {
@@ -206,7 +237,6 @@ body {
 }
 .section-title {
     font-weight: 900;
-    font-size: 64px;
     line-height: 89.5px;
     text-align: center;
     color: var(--color-primary);

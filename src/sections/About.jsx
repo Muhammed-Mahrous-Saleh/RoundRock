@@ -3,10 +3,10 @@ import Button from "../components/Button";
 
 const About = () => {
     return (
-        <section className="container-fluid about-section">
+        <section className="container-fluid about-section ">
             <div className="about-section-clip"></div>
-            <div className="container mx-auto flex z-10 relative gap-50 about-section-container">
-                <div className="flex-1 about-section-content items-start text-start ms-20">
+            <div className="container mx-auto flex flex-wrap z-10 relative gap-30 md:gap-10 xl:gap-50 about-section-container">
+                <div className="flex-1 about-section-content items-start text-start md:ms-20 max-w-[80%] mx-auto">
                     <h2 className="text-center title">About us</h2>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and
@@ -21,7 +21,7 @@ const About = () => {
                         />
                     </div>
                 </div>
-                <div className="flex-1 about-section-content items-end text-end justify-center">
+                <div className="flex-1 about-section-content items-end text-end justify-center md:me-5 max-w-[80%] mx-auto mb-5">
                     <h2 className="text-center title">Where</h2>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and
