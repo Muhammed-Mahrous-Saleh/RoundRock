@@ -6,6 +6,7 @@
     --color-secondary: #eec04b;
     --color-text-grey-dark: #4f4f4f;
     --color-text-white: #fff;
+    --color-text-primary: #324473;
 }
 
 body {
@@ -116,6 +117,18 @@ body {
     font-weight: 600;
     width: fit-content;
     margin-inline: auto;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2);
+}
+.button:active {
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 .button-primary {
@@ -178,4 +191,25 @@ body {
 
 .about-section-content .image-container img {
     width: 100%;
+}
+.section {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+.section-title {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 89.5px;
+    text-align: center;
+    color: var(--color-primary);
+    margin-inline: auto;
+    width: fit-content;
+}
+
+.section-title span {
+    background-color: var(--color-primary-dark);
+}
+
+.horizontal-card {
+    color: var(--color-text-primary);
 }
